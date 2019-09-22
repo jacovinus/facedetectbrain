@@ -1,0 +1,29 @@
+p{
+    color:white;
+}
+.form-container{
+    width:600px;
+    box-shadow:2px 2px 6px rgba(0,0,0,.5);
+    padding:20px;
+    background:rgba(255,255,255,.25);
+    box-shadow:2px 2px 6px rgba(0,0,0,.5);
+    transition: 2s all;
+}
+.form-container:hover{
+    transform: all;
+    background: rgba(35, 255, 244, 0.5);
+    box-shadow:2px 2px 6px rgba(255,255,255,.5);
+}
+.brainform {
+    width:100%;
+    display:flex;
+
+}
+.brainform input{
+    width:70%;
+
+}
+.brainform button{
+    width:30%;
+}
+

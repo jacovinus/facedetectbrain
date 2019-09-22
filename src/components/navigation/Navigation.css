@@ -1,0 +1,33 @@
+nav{
+    display:flex;
+  /*justify-items: auto; */
+}
+nav ul{
+    width:100%;
+   justify-items: auto;
+}
+.link{
+    color:white;
+    text-decoration:none;
+    list-style: none;
+}
+.signout{
+    /* align-self: flex-end; */
+    position: absolute;
+    right:40px;
+    top:20px;
+    transition: 2000ms all;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signout:hover {
+transform: all;
+color:turquoise;
+text-shadow: 2px 2px 4px rgba(0,0,0,.25);
+}
+
+.signout:hover::before{
+content:'> ';
+}
