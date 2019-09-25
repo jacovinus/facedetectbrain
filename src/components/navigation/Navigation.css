@@ -3,13 +3,22 @@ nav{
   /*justify-items: auto; */
 }
 nav ul{
-    width:100%;
-   justify-items: auto;
+    width:50%;
+ position:absolute;
+ right:10px;
 }
 .link{
     color:white;
     text-decoration:none;
     list-style: none;
+    width:25%;
+    display:inline-block;
+    text-align:right;
+
+}
+
+.link:hover{
+    text-decoration:underline;
 }
 .signout{
     /* align-self: flex-end; */
